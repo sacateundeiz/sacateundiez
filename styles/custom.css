@@ -44,6 +44,19 @@ Navbar
 	background: #607D2E;
 }
 
+.navbar-header button,
+.navbar-header button:visited {
+	background: #eee;
+}
+
+.nav .dropdown .dropdown-toggle {
+	border-radius: 15px;
+}
+
+.nav .dropdown .dropdown-toggle:focus {
+	background: red;
+}
+
 
 /*
 ===========================

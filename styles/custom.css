@@ -1,3 +1,8 @@
+/*
+===========================
+Navbar
+===========================
+*/
 .main-navbar {
 	background: #769A38;
 	padding: 20px 0;
@@ -12,6 +17,11 @@
 	color: #eee;
 }
 
+.navbar-header .navbar-brand {
+	font-size: 2em;
+	font-weight: bold;
+}
+
 .navbar .nav li a {
 	text-transform: uppercase;
 	font-weight: 600;
@@ -22,6 +32,40 @@
 	color: #fff;
 }
 
+.navbar-nav .dropdown:dropdown {
+	background: #607D2E;
+}
+
+.dropdown-menu {
+	background: #769A38;
+}
+
+.dropdown-menu li a:hover {
+	background: #607D2E;
+}
+
+
+/*
+===========================
+Carousel
+===========================
+*/
+
 #myCarousel img {
 	width: 100%
+}
+
+
+/*
+===========================
+Foter
+===========================
+*/
+
+.site-footer {
+	background: #769A38;
+	color: #eee;
+	vertical-align: bottom;
+	padding: 15px 20px;
+	font-size: 0.75em;
 }

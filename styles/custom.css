@@ -1,16 +1,24 @@
 .main-navbar {
 	background: #769A38;
 	padding: 20px 0;
+	margin-bottom: 0;
+	border: 1px solid #769A38;
+	border-radius: 0;
 }
 
-.navbar-header .navbar-brand {
+.navbar-header .navbar-brand,
+.navbar .nav li a {
 	color: #eee;
 }
 
 .navbar .nav li a {
-	color: #eee;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+
+.navbar-header .navbar-brand:hover ,
+.navbar .nav li a:hover {
+	color: #fff;
 }
 
 #myCarousel img {

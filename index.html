@@ -4,13 +4,102 @@
 <head>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+
     <title>SACATEUNDIEZ</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
    </head>
 </head>
 
 <body>
-	<h1>SACATEUNDIEZ</h1>
-	<h2>Pagina de test</h2>
-</body>
+	<nav class="navbar navbar-default main-navbar">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">SACATEUNDIEZ</a>
+	    </div>
 
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#">¿Quienes somos?<span class="sr-only">(current)</span></a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Materias <span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#">Primaria</a></li>
+	            <li><a href="#">Secundaria</a></li>
+	            <li class="divider"></li>
+	            <li><a href="#">CBC</a></li>
+	            <li><a href="#">Universidad</a></li>
+	          </ul>
+	        </li>
+	        <li><a class="nav-link" href="#">Comentarios</a></li>
+	        <li><a href="#">Precios</a></li>
+	        <li><a href="#">Contacto</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<!-- Carrousel con las imagenes -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first-slide" src="http://placehold.it/600x300?text=SACATEUNDIEZ" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci vel orci posuere feugiat. Etiam fringilla porttitor mauris, sed rutrum lorem varius at. Phasellus eu eros felis. Pellentesque sit amet turpis non neque ultrices commodo vitae non turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam scelerisque quis justo sed tristique.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img class="second-slide" src="http://placehold.it/600x300?text=SACATEUNDIEZ" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci vel orci posuere feugiat. Etiam fringilla porttitor mauris, sed rutrum lorem varius at. Phasellus eu eros felis. Pellentesque sit amet turpis non neque ultrices commodo vitae non turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam scelerisque quis justo sed tristique.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="http://placehold.it/600x300?text=SACATEUNDIEZ" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci vel orci posuere feugiat. Etiam fringilla porttitor mauris, sed rutrum lorem varius at. Phasellus eu eros felis. Pellentesque sit amet turpis non neque ultrices commodo vitae non turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam scelerisque quis justo sed tristique.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+      </a>
+    </div>
+    
+</body>
 </html>

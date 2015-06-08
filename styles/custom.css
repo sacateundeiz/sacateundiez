@@ -1,0 +1,18 @@
+.main-navbar {
+	background: #769A38;
+	padding: 20px 0;
+}
+
+.navbar-header .navbar-brand {
+	color: #eee;
+}
+
+.navbar .nav li a {
+	color: #eee;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#myCarousel img {
+	width: 100%
+}

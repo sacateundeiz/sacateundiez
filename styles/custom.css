@@ -107,3 +107,61 @@ Foter
 	padding: 15px 20px;
 	font-size: 0.75em;
 }
+
+
+/*
+===========================
+Titles
+===========================
+*/
+
+.title {
+	margin: 1em 0;
+}
+
+.title-primaria p,
+.title-secundaria p {
+	font-size: 0.4em;
+	margin-left: 0.6em;
+}
+
+
+/*
+===========================
+Materias
+===========================
+*/
+
+.lista-materias,
+.lista-precios {
+	list-style: none;
+	font-size: 1.6em;
+	margin-bottom: 2em;
+}
+
+.lista-carreras {
+	list-style: none;
+	margin-bottom: 1em;
+}
+
+.lista-carreras li {
+	margin-left: 2em;
+}
+
+.lista-carreras li:first-child {
+	font-size: 1.2em;
+	color: #607D2E;
+	margin-left: 0;
+	text-transform: uppercase;
+}
+
+
+/*
+===========================
+Contacto
+===========================
+*/
+
+.contact-page {
+	margin-bottom: 5em;
+}

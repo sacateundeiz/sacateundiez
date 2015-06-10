@@ -1,5 +1,50 @@
 /*
 ===========================
+Changde media query
+Para que la navbar colapse tambien en sm
+===========================
+*/
+	@media (max-width: 991px) {
+	    .navbar-header {
+	        float: none;
+	    }
+	    .navbar-toggle {
+	        display: block;
+	    }
+	    .navbar-collapse {
+	        border-top: 1px solid transparent;
+	        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	    }
+	    .navbar-collapse.collapse {
+	        display: none!important;
+	    }
+	    .navbar-nav {
+	        float: none!important;
+	        margin: 7.5px -15px;
+	    }
+	    .navbar-nav>li {
+	        float: none;
+	    }
+	    .navbar-nav>li>a {
+	        padding-top: 10px;
+	        padding-bottom: 10px;
+	    }
+	    .navbar-text {
+	        float: none;
+	        margin: 15px 0;
+	    }
+	    /* since 3.1.0 */
+	    .navbar-collapse.collapse.in { 
+	        display: block!important;
+	    }
+	    .collapsing {
+	        overflow: hidden!important;
+	    }
+	}
+/*===========================*/
+
+/*
+===========================
 Main
 ===========================
 */
@@ -28,9 +73,10 @@ Navbar
 }
 
 .navbar-header .navbar-brand,
+.navbar-header .navbar-brand:focus,
 .navbar .nav li a,
 .navbar .nav li a:visited {
-	color: #eee;
+	color: #ddd;
 }
 
 .navbar-header .navbar-brand {
@@ -49,10 +95,6 @@ Navbar
 	color: #fff;
 }
 
-.navbar-nav .dropdown:dropdown {
-	background: #607D2E;
-}
-
 .dropdown-menu {
 	background: #769A38;
 }
@@ -61,9 +103,12 @@ Navbar
 	background: #607D2E;
 }
 
-.navbar-header button,
-.navbar-header button:visited {
-	background: #eee;
+.navbar-header button {
+	background: #ddd;
+}
+
+.nav .dropdown .dropdown-toggle:focus {
+	color: #ddd;
 }
 
 .nav .dropdown .dropdown-toggle {
@@ -79,6 +124,22 @@ Navbar
 .nav .dropdown .dropdown-menu {
 	border-top-left-radius: 5px;
 }
+
+.nav .dropdown .dropdown-menu:focus {
+	border-top-left-radius: 5px;
+}
+
+.nav .dropdown .dropdown-menu li a:link,
+.nav .dropdown .dropdown-menu li a:visited,
+.nav .dropdown .dropdown-menu li a:focus,
+.nav .dropdown .dropdown-menu li a:hover {
+	color: #fff
+}
+
+.navbar .title-sacateundiez {
+	margin-right: 0.05em;
+} /*Pequeña separación de las palabras
+	en el titulo de la pagina*/
 
 
 /*
@@ -180,4 +241,27 @@ Contacto
 
 .contact-page {
 	margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+/*Para que aparezca la linea arriba
+ del titulo */
+.line-top-left {
+	margin: 0;
+	padding: 0;
+	width: 16.6em;
+	border-top: 0.2em solid #eee;
+}
+.navbar {
+	padding-top: 0;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-header {
+	padding-top: 1em;
 }

@@ -1,5 +1,21 @@
 /*
 ===========================
+Main
+===========================
+*/
+
+.container,
+.container-fluid {
+	background-color: #eee;
+}
+
+.container-green {
+	background-color: #769A38;
+}
+
+
+/*
+===========================
 Navbar
 ===========================
 */

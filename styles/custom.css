@@ -58,6 +58,10 @@ Main
 	background-color: #769A38;
 }
 
+.container-full {
+	padding: 0;
+}
+
 
 /*
 ===========================
@@ -148,9 +152,16 @@ Carousel
 ===========================
 */
 
-#myCarousel img {
+#myCarousel {
+	margin: auto;
+	max-width: 1280px;
 	width: 100%;
+}
+
+#myCarousel img {
 	max-height: 500px;
+	width: 100%;
+	margin: auto;
 }
 
 .btn-precios {

@@ -1,0 +1,208 @@
+/*
+===========================
+Changde media query
+Para que la navbar colapse tambien en sm
+===========================
+*/
+  @media (max-width: 991px) {
+      .navbar-header {
+          float: none;
+      }
+      .navbar-toggle {
+          display: block;
+      }
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+      .navbar-collapse.collapse {
+          display: none!important;
+      }
+      .navbar-nav {
+          float: none!important;
+          margin: 7.5px -15px;
+      }
+      .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .navbar-text {
+          float: none;
+          margin: 15px 0;
+      }
+      /* since 3.1.0 */
+      .navbar-collapse.collapse.in { 
+          display: block!important;
+      }
+      .collapsing {
+          overflow: hidden!important;
+      }
+  }
+/*===========================*/
+
+/*
+===========================
+Main
+===========================
+*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #eee;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.container {
+  border-radius: 1em;
+  padding: 1.5em 1.5em 5em 3em;
+}
+
+
+/* Sticky Footer styles
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #769A38;
+  vertical-align: bottom;
+  /*padding: 15px 20px;*/
+  padding-top: 1.2em;
+  font-size: 0.75em;
+}
+
+.footer p {
+  color: #eee;
+  margin-bottom: 0;
+}
+
+.footer .p-right {
+  text-align: right;
+}
+
+/* Static Navbar
+-------------------------------------------------- */
+.navbar {
+  background: #769A38;
+  padding: 1.1em 1.2em 0 0;
+  margin-bottom: 0;
+  /*border: 1px solid #769A38;*/
+  border-radius: 0;
+} /*Toda la navbar, cerrada y abierta */
+
+.navbar-header .navbar-brand,
+.navbar-header .navbar-brand:focus,
+.navbar .nav li a,
+.navbar .nav li a:visited {
+  color: #ddd;
+} /* Color de la letra de la brand y los links */
+
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:focus,
+.navbar .navbar-nav>.active>a:hover {
+  background-color: #607D2E;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 0.9em solid #607D2E;
+} /* El color de fondo del link a la pagina actual en la navbar */
+
+.navbar-header .navbar-brand {
+  font-size: 2.1em;
+  font-weight: bold;
+  padding-top: 0.3em;
+} /* El nombre del sitio */
+
+.navbar .nav li a {
+  text-transform: uppercase;
+  font-weight: 600;
+} /* Los links que haya en la navbar */
+.navbar-header .navbar-brand:hover ,
+.navbar .nav li a:hover,
+.navbar .navbar-nav>.active>a:hover {
+  color: #fff;
+} /* El hover sobre los links de la navbar */
+
+.dropdown-menu,
+.dropdown-menu:focus {
+  background: #769A38;
+}/* El menu desplegable que sale de la navbar */
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus {
+  background: #607D2E;
+} /* El hover sobre los links dentro del dropdown */
+
+.navbar .dropdown .dropdown-toggle {
+  border-radius: 15px 15px 0 0;
+}
+.navbar .dropdown .dropdown-toggle:focus {
+  color: #fff;
+}
+/* La lista desplegable que sale del dropdown */
+
+.navbar-header button {
+  background: #fff;
+} /* La hamburguesa que se arma cuando colapsa la navbar */
+
+.navbar-brand p {
+  margin-top: 0.2em;
+  font-weight: normal;
+  font-size: 0.5em;
+} /* El texto debajo del nombre del site (brand) */
+
+.navbar .dropdown .dropdown-menu li a:link,
+.navbar .dropdown .dropdown-menu li a:visited,
+.navbar .dropdown .dropdown-menu li a:focus,
+.navbar .dropdown .dropdown-menu li a:hover {
+  color: #fff
+} /* Los links de la lista desplegable de la navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ Custom page CSS
+--------------------------------------------------
+Not required for template or sticky footer method.
+
+body > .container {
+  padding: 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+/*===========================*/

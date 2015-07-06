@@ -199,14 +199,15 @@ Carousel
 }
 
 #myCarousel img {
-  max-width: 100%;
-  height: auto !important;
+  height: 100%;
+  width: auto;
+  object-fit: none;
+  overflow: hidden;
 }
 
 
-.carousel-indicators,
-.carousel-caption {
-  margin-bottom: 5em;
+.carousel-indicators {
+  margin-bottom: 4em;
 }
 
 

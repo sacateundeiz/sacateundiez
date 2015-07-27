@@ -81,6 +81,13 @@ Navbar
 	border-radius: 0;
 }
 
+a.navbar-brand {
+	float: none;	
+	display: inline-block;
+	height: auto;
+	padding: 15px 3px;
+}
+
 .navbar-header .navbar-brand,
 .navbar-header .navbar-brand:focus,
 .navbar .nav li a,

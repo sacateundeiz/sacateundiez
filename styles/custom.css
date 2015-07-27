@@ -168,6 +168,7 @@ body {
 	margin: 0;
 	display: block;
 	height: 100%;
+	min-width: 320px;
 }
 .site-footer {
 	position: fixed;

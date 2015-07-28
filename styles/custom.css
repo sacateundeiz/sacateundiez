@@ -60,7 +60,7 @@ Main
 }
 
 .container-green {
-	background-color: #769A38;
+	background-color: #0000FF;
 }
 
 .container-full {
@@ -108,7 +108,7 @@ a.navbar-brand {
 
 .navbar-header .navbar-brand:hover ,
 .navbar .nav li a:hover {
-	color: #fff;
+	color: #0000FF;
 }
 
 .dropdown-menu {
